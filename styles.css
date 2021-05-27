@@ -1,0 +1,120 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1px;
+}
+.header{
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    position: sticky;
+    border-bottom: #222222 solid 1px;
+}
+.header img{
+    width: 70px;
+}
+.navlink{
+    float: right;
+    margin-top: 23px;
+}
+.header span a{
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+.inputfields{
+    font-family: inherit;
+    font-weight: inherit;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: #f0f2fc solid 1px;
+    border-radius: 20px;
+}
+::placeholder{
+    padding-left: 10px;
+    color: white;
+    font-family: inherit;
+    font-weight: inherit;
+}
+textarea{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.footer img{
+    margin-left: 5px;
+    width: 70px;
+}
+.social a img{
+    width: 30px;
+}
+.social a{
+    text-decoration: none;
+}
+.hero img{
+    margin-top: 30px;
+    width: 200px;
+    border-radius: 50%;
+}
+.footer p{
+    background-color: #222;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+#about{
+    border-top: #222222 solid 1px;
+    border-bottom: #222222 solid 1px;
+    padding-bottom: 20px;
+}
+#about p{
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#contact{
+    border-bottom: #222222 solid 1px;
+    padding-bottom: 20px;
+}
+.footer{
+    width: 100%;
+    text-align: right;
+    padding-top: 15px;
+}
+.footerlink{
+    float: left;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.footerlink a{
+    padding-right: 5px;
+}
+.button{
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 16px;
+    color: inherit;
+    background: transparent;
+    border: #f0f2fc solid 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+#invalidalert{
+    font-weight: bold;
+    color: red;
+    visibility: hidden;
+}

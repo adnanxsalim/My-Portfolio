@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Logo.png" type="image/png" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>My Portfolio - Adnan</title>
+</head>
+<body>
+    <div class="header">
+        <a href="#"><img src="Logo.png"></a>
+        <span class="navlink">
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </span>
+    </div>
+    <div class="hero" id="hero">
+        <img src="hero.jpg">
+        <h1>Hey There, I'm Adnan</h1>
+    </div>
+    <div class="about" id="about">
+        <h2>About Me</h2>
+        <p>I'm a 19 year old, born in India, who is expected to be Bachelor of Technology (Computer Science) by mid 2024.<br><br>
+        I'm a LinkedIn certified Digital Marketing Specialist and a Google Ads certified Advertiser.<br><br>
+        I have experience in Social Media Marketing & Management, Search Engine Optimization(SEO), Data Analysis, Graphic Designing, Web Designing & Development, E-commerce, Affiliate Marketing and more.<br><br>
+        Besides, I'm a Football Fan, Stocks & Crypto Trader, Casual Gamer, Mobile Photographer, YouTube Expert, Freelancer and a Constant Learner too.</p>
+    </div>
+    <div class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p id="invalidalert">Please enter a valid input!</p>
+        <form onsubmit="alert('Thank you for submitting the form');">
+            <input class="inputfields" type="text" id="name" name="name" size="75" placeholder="Name" oninvalid="invalid(this.id)" required><br>
+            <input class="inputfields" type="email" id="email" name="email" size="75" placeholder="Email" oninvalid="invalid(this.id)" required><br>
+            <label for="Gender">Gender: </label>
+            <input type="radio" id="Gender" name="Gender">Male
+            <input type="radio" id="Gender" name="Gender">Female<br>
+            <textarea class="inputfields" name="message" id="message" cols="75" rows="12" placeholder="Messages or Queries" oninvalid="invalid(this.id)" required></textarea><br>
+            <input type="submit" value="Submit" class="button" id="button" onclick="submit()">
+        </form>
+    </div>
+    <div class="footer" id="footer">
+        <span class="footerlink"><div class="social" id="social">
+            <a href="https://instagram.com/adnanzabdi">
+                <img src="Instagram.png">
+            </a>
+            <a href="https://facebook.com/adnanzabdi">
+                <img src="Facebook.png">
+            </a>
+            <a href="https://twitter.com/adnanzabdi">
+                <img src="Twitter.png">
+            </a>
+            <a href="https://linkedin.com/in/adnan-a-salim">
+                <img src="LinkedIn.png">
+            </a>
+            <a href="mailto:adnanzabdi@outlook.com">
+                <img src="Email.png">
+            </a>
+            <a href="https://paypal.me/adnanzabdi">
+                <img src="PayPal.png">
+            </a>
+        </div></span>
+        <a href="#hero"></a><img src="Logo.png">
+        <p>&copy; All rights reserved</p>
+    </div>
+</body>
+</html>
